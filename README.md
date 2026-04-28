@@ -1,10 +1,8 @@
 # Assignment 4 – Robustness, Generalization, and Dataset Drift Audit of COMPAS Models
-
 Name: Rafay Raza
 GWID: G40856805
 
 ## Purpose of the Analysis
-
 The purpose of this analysis is to evaluate the reliability of machine learning models trained on the COMPAS two-year recidivism dataset beyond standard accuracy metrics. The audit focuses on three key areas: generalization, distribution drift, and robustness.
 
 The analysis compares a logistic regression model and a gradient-boosted tree model to assess whether they learn stable patterns or rely on spurious correlations. Distribution drift is evaluated using Population Stability Index (PSI), Kolmogorov–Smirnov (KS) tests, and Maximum Mean Discrepancy (MMD) to determine whether the data generating process has changed.
